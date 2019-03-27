@@ -175,7 +175,7 @@ class Bridge(object):
 
     def publish_camera(self, data):
         self.image_count += 1
-        if (self.image_count % 6) == 0:
+        if (self.image_count % 3) == 0:
             imgString = data["image"]
             image = PIL_Image.open(BytesIO(base64.b64decode(imgString)))
             image_array = np.asarray(image)
