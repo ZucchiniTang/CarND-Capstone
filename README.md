@@ -1,3 +1,5 @@
+### I finished this project by myself without teammates.
+
 ## When you run the code on Udacity Workspace, there is a point need to notice:
 1. Uninstall the catkin_pkg_0_4_2 and install catkin_pkg_0_4_10. Or the catkin_make will find out the catkin_pkg and catkin_pkg_modules's version different, it will cause error.
 
